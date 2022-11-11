@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>留言</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/java.css"/>
+    <link rel="stylesheet" type="text/css" href="css/cssForMessage.css"/>
+    <script src="js/jsForMessage.js"></script>
+</head>
+<body>
+<script src="js/page.js"></script>
+<div class="t1 fix">
+    <div class="tl"><a href="index.html">Hello | World</a></div>
+    <!-- support.html -->
+    <div class="tr">
+        <ul class="ur">
+            <li><a href="index.html">主页</a></li>
+            <li><a href="java.html">Java笔记</a></li>
+            <li><a href="spring.html">Spring笔记</a></li>
+            <li><a href="springmvc.html">SpringMVC笔记</a></li>
+            <li><a href="mybatis.html">MyBatis笔记</a></li>
+            <li><a href="message.html">留言</a></li>
+        </ul>
+    </div>
+</div>
+<div style="height: 50px"></div>
+<div id="form">
+    <form action="" name="celebrate" method="post" class="Celebrate">
+        <div>
+            <label>
+                请在此处写下您想说的话：<textarea id="textOfCelebration"></textarea>
+            </label>
+        </div>
+        <div>
+            <label>您的身份
+                <select>
+                    <option>暂不选择</option>
+                    <option>Worker</option>
+                    <option>Coder</option>
+                    <option>Other</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>联系方式
+                <input type="text" name="name">
+            </label>
+        </div>
+        <div>
+            <input type="button" name="submit" value="提交" id="submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>
